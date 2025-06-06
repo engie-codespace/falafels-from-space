@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/falafels.png';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,12 +10,17 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-primary shadow-lg">
+    <nav className="bg-primary shadow-lg" style={{ minHeight: '6rem' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-32">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="text-white text-xl font-bold">DirtyPower</span>
+              <span className="flex items-center gap-4">
+                <img src={logo} alt="FalafelsFromSpace Logo" className="h-32 w-32 inline-block align-middle rounded-full" />
+                <span className="text-4xl font-extrabold tracking-wide text-accent drop-shadow-lg uppercase" style={{ letterSpacing: '0.1em' }}>
+                  Falafels From Space
+                </span>
+              </span>
             </Link>
           </div>
           

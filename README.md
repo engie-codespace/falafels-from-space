@@ -1,8 +1,8 @@
-# DirtyPower - Energy Supply Website
+# FalafelsFromSpace - Energy Supply Website
 
 ## Introduction
 
-This codebase contains a React-based website for DirtyPower, a company offering energy from various sources including gas, coal, and nuclear power plants. The site provides customers with a comprehensive interface to compare different energy options, view detailed information about each energy type, explore pricing plans, and contact the company.
+This codebase contains a React-based website for FalafelsFromSpace, a company offering energy from various sources including gas, coal, and nuclear power plants. The site provides customers with a comprehensive interface to compare different energy options, view detailed information about each energy type, explore pricing plans, and contact the company.
 
 The website is structured with the following main features:
 - **Homepage** with services overview and customer testimonials
@@ -17,7 +17,7 @@ _This project was bootstrapped with [Create React App](https://github.com/facebo
 
 ## Legal Notice
 
-**IMPORTANT**: This codebase is the exclusive property of ENGIE. Any use, reproduction, distribution, or modification without explicit authorization from ENGIE is strictly prohibited. See the LICENSE file for more details.
+**IMPORTANT**: This codebase is the exclusive property of MisterPoisChiche. Any use, reproduction, distribution, or modification without explicit authorization from MisterPoisChiche is strictly prohibited. See the LICENSE file for more details.
 
 ## Project Structure
 
